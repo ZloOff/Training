@@ -1,7 +1,10 @@
-.wrapper {
+body {
+max-width: 1366px;
+}
+.wrapper_mobile {
 background-image: url(../img/background_mobile.jpg);
 background-repeat: no-repeat;
-max-width: 1366px;
+width: 1366px;
 height: 841px;}
 .menu_heder_mobile {
 display: flex;
@@ -14,7 +17,28 @@ font-size: 30px;
 text-decoration: none;
 color: #ffff;
 line-height: 37px;}}
-
-@media screen {
+.menu_heder_desktop {
+display: none;}
+@media (min-width: 440px) and (max-width: 1920px) {
+.wrapper_mobile {
+display: none;}
+.menu_heder_mobile {
+display: none;}
+.wrapper_desktop {
+background-image: url(../img/background.jpg);
+width: 1366px;
+height: 841px;}
+.menu_heder_desktop {
+display: flex;
+justify-content: space-between;
+padding: 24px 40px 24px 40px;
+align-items: center;
+a {text-decoration: none;
+color: #ffff;
+font-weight: 550;
+font-size: 32px;
+line-height: 35px;}}
+.menu_heder_item {
+display: flex;
+gap: 24px;}}
     
-}
