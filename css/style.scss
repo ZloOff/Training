@@ -1,0 +1,20 @@
+.wrapper {
+background-image: url(../img/background_mobile.jpg);
+background-repeat: no-repeat;
+max-width: 1366px;
+height: 841px;}
+.menu_heder_mobile {
+display: flex;
+padding: 40px 500px 20px 20px;
+justify-content:flex-start;
+align-items: center;
+gap: 140px;
+a {
+font-size: 30px;
+text-decoration: none;
+color: #ffff;
+line-height: 37px;}}
+
+@media screen {
+    
+}
